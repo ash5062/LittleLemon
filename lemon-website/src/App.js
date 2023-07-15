@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './header'
+import Main from './main'
+import Nav from './Nav'
+import Footer from './footer'
+
+
 
 function App() {
   return (
     <>
-      <header/>
-      <nav/>
-      <main/>
-      <footer/>
+      <Header/>
+      <Nav/>
+      <Main/>
+      <Footer/>
     </>
   );
 }
